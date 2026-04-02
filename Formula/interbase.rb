@@ -1,8 +1,8 @@
 class Interbase < Formula
   desc "Interbase command-line interface"
-  homepage "https://github.com/agentsorchestrationcompany/interbase"
-  url "https://github.com/agentsorchestrationcompany/interbase/releases/download/cli-v0.0.1/interbase-cli-v0.0.1-homebrew.tar.gz"
-  sha256 "d5aac176cea241f6e05944f1a1bf3ca4e218e849a631dddae3c5d3b6ae39e8d1"
+  homepage "https://github.com/agentsorchestrationcompany/cli"
+  url "https://github.com/agentsorchestrationcompany/cli/releases/download/cli-v0.0.1/interbase-cli-v0.0.1-homebrew.tar.gz"
+  sha256 "95955346925e269a59e61ef1bf222e8d5b03c09c506bd8c5c23f56de4f1784f9"
   version "0.0.1"
   depends_on "node"
 
