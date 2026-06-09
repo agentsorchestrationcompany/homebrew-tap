@@ -4,30 +4,30 @@
 class Interbase < Formula
   desc "Interbase CLI"
   homepage "https://github.com/agentsorchestrationcompany/interbase"
-  version "0.12.0"
+  version "0.12.1"
   depends_on "ripgrep"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.0/interbase-darwin-x64.zip"
-      sha256 "1466a730a403f4d371ae99894d3c8965e9692756533f4420b7ae088706fa1ccd"
+      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.1/interbase-darwin-x64.zip"
+      sha256 "d864760e4c69efc3d111e753aa238fa59b9d3dba80a1546eadca33606bd13436"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.0/interbase-darwin-arm64.zip"
-      sha256 "2cdebe788f21317f3f4c0cb8839200c5328c889a784fac83e6c3189b013d149f"
+      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.1/interbase-darwin-arm64.zip"
+      sha256 "9db370d9c53967506940ab294c010a59f89afc1dceb4c8b4341f912f063aae3e"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? and Hardware::CPU.is_64_bit?
-      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.0/interbase-linux-x64.tar.gz"
-      sha256 "220470dd9233cb67522a912ea58fd0fa6611e68d093eb73849d6443ecbd846d6"
+      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.1/interbase-linux-x64.tar.gz"
+      sha256 "a8d49e04e24310b2d3fbe58040f3129ce881d2d70fa49ee6f55a78c270aa9386"
     end
 
     if Hardware::CPU.arm? and Hardware::CPU.is_64_bit?
-      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.0/interbase-linux-arm64.tar.gz"
-      sha256 "f5e7e29e4a81f713bcfae5acdd3ec95deeb603d42d67e3b27958e54b3185bf00"
+      url "https://github.com/agentsorchestrationcompany/interbase/releases/download/v0.12.1/interbase-linux-arm64.tar.gz"
+      sha256 "be9f88e2196ed1987d55b5853cdacb5cdf1d183b90193a11ae78518a095faab3"
     end
   end
 
